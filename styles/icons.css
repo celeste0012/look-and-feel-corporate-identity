@@ -65,23 +65,22 @@ header > a {
     search {
         width: 80vw;
         border-radius: 28px;
-        background: #f6f6f6;
+        background: light-dark( #f6f6f6, #444);
         transition: 0.25s;
         max-width: max-content;
 
         label {
             display: flex;
 
-            img {
+            svg {
                 margin-left: 8px;
                 width: 35px;
-                height: auto; 
+                fill: currentColor;
             }
 
         .input-search {
         font-size: 16px;
-        color: #000000;
-        /* margin-left: 5px; */
+        color: light-dark(#000000, #FFF);
         outline: none;
         border: none;
         background: transparent;
@@ -91,12 +90,6 @@ header > a {
         }
         } 
 
-
-
-        .search-input::placeholder,
-        .search-icon {
-        color: rgba(0, 0, 0, 0.75);
-        }
         /* wanneer iets in de search gefocussed word, gebeurt dit */
         &:focus-within {
             box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
