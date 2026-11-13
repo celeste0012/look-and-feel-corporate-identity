@@ -95,14 +95,6 @@ html:has(  [value="afval"]:checked) .svg:not(.afval) {
     @media (min-width: 360px) {
         grid-template-columns:repeat(auto-fill, minmax(120px, 1fr));
     }
-    
-    button {
-        width: 100%;
-    }
-
-    .button {
-        size: 100%;
-    }
 
     li > button > img {
         width:100%;
