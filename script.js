@@ -1,4 +1,4 @@
-const searchInput = document.querySelector('.search-input');
+const searchInput = document.querySelector('.input-search');
 const items = document.querySelectorAll('.icons img');
 
 if (searchInput) {

@@ -62,40 +62,6 @@ header > a {
     background-color: white;
     padding-top: 3px;
 
-    search {
-        width: 80vw;
-        border-radius: 28px;
-        background: light-dark( #f6f6f6, #444);
-        transition: 0.25s;
-        max-width: max-content;
-
-        label {
-            display: flex;
-
-            svg {
-                margin-left: 8px;
-                width: 35px;
-                fill: currentColor;
-            }
-
-        .input-search {
-        font-size: 16px;
-        color: light-dark(#000000, #FFF);
-        outline: none;
-        border: none;
-        background: transparent;
-        width: 60vw;
-        max-width: 180px;
-        padding: 10px;
-        }
-        } 
-
-        /* wanneer iets in de search gefocussed word, gebeurt dit */
-        &:focus-within {
-            box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
-        }
-    }
-
     .radio {
         display: flex;
         flex-wrap: wrap;
@@ -130,26 +96,48 @@ html:has(  [value="afval"]:checked) .svg:not(.afval) {
         grid-template-columns:repeat(auto-fill, minmax(120px, 1fr));
     }
     
-    li {
-        border-radius: 10px;
-        border: black 1px solid;
-        &:hover {    
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            translate: 0 -1px
-        
-        }
+    button {
+        width: 100%;
     }
 
+    .button {
+        size: 100%;
+    }
 
+    li > button > img {
+        width:100%;
+        height: 100%;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        img {
+            filter: invert(1);
+        }
+    }
 }
 
-.icons_diapositive {
+/* .icons_diapositive {
     li {
         filter: invert(1);
         background-color: white;
         border: white 1px solid;
         &:hover {
             box-shadow: 0 4px 8px 10px rgba(255, 255, 255, 0.2), 0 6px 20px 10px rgba(255, 255, 255, 0.19);
+        }
+    }
+} */
+
+.icons_diapositive {
+    color-scheme: dark;
+    
+    img {
+        filter: invert(1)
+    }
+
+    @media (prefers-color-scheme: dark) {
+        color-scheme: light;
+        img {
+            filter:invert(0)
         }
     }
 }
