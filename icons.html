@@ -64,7 +64,7 @@
             </form>
 
             <Fieldset>
-            <legend>Kies een variant:</legend>
+            <legend>Variant</legend>
                 <label class="label-filter">
                     <input type="radio" name="variant" value="regular" id="variant_regular" checked>Regular</label>
                 <label class="label-filter">
@@ -75,12 +75,24 @@
                     <input type="radio" name="variant" value="diapositive" id="variant_diapositive">Diapositive</label>
             </Fieldset>
 
-            <p class="de_filter-filter">
-                <select name="filter">
-                    <option value="filter" selected>Filter</option>
-                    <option value="afval">Afval</option>
-                </select>
-            </p> 
+            <fieldset class="filter">
+                <legend class="filter-legend">Thema</legend>
+
+                <label class="label-filter">
+                    <input type="checkbox" name="checkbox-1" class="">
+                    Afval
+                </label>
+
+                <label class="label-filter">
+                    <input type="checkbox" name="checkbox-2" class="">
+                    Papier(en)
+                </label>
+
+                <label class="label-filter">
+                    <input type="checkbox" name="chekcbox-3" class="">
+                    Personage(s)
+                </label>
+            </fieldset>
         </div>
 
         <ul class="icons icons_regular">
