@@ -5,6 +5,14 @@ header > a {
     }
 }
 
+header {
+    @media (prefers-color-scheme: dark) {
+        img {
+            filter: invert(1);
+        }
+    }
+}
+
 .cco-universal {
     font-size: large;
 }
