@@ -61,6 +61,13 @@ hgroup > p {
     }
 }
 
+div {
+    padding: 5px;
+    border: dashed 3px var(--fg-0);
+    max-width: max-content;
+
+}
+
 ul {
     list-style-type:"";
     display: grid;
