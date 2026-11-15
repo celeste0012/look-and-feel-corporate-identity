@@ -8,6 +8,15 @@ header > a {
     &:focus {
         opacity: 1;
     }
+    
+}
+
+header {
+    @media (prefers-color-scheme: dark) {
+        img {
+            filter: invert(1);
+        }
+    }
 }
 
 .easy-use {
@@ -24,15 +33,15 @@ header > a {
     }
 
     max-width: 1250px;
-    border: #000000 2px dashed;
+    border: var(--fg-0) 2px dashed;
    
 }
 
 #s1 {
     display: grid;
 
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid var(--fg-0);
+    border-bottom: 1px solid var(--fg-0);
     margin-top: 6px;
     margin-bottom: 6px;
 
@@ -83,7 +92,7 @@ html:has(  [value="afval"]:checked) .svg:not(.afval) {
 
 .icons {
     padding-top: 20px;
-    border-top: 1px solid black;
+    border-top: 1px solid var(--fg-0);
     list-style-type: "";
     padding-left: 0;
     padding-bottom: 0;
