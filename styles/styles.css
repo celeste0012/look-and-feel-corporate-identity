@@ -65,6 +65,8 @@ ul {
     list-style-type:"";
     display: grid;
     gap: 20px;
+    padding-left: 0px;
+
 
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
