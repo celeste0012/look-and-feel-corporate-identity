@@ -1,3 +1,5 @@
+
+
 header > a {
     opacity: 0;
     &:focus {
@@ -35,6 +37,7 @@ header {
 
 h1 {
    max-width: 780px;
+   hyphens: unset;
    
    a {
     color: #1F4ED8;
@@ -44,6 +47,14 @@ h1 {
         /* clamp: first is min-width, next is preferred width and last is max-width */
         font-size: clamp(2rem, 7vw, 3rem);
     }
+}
+
+h2 {
+    hyphens: unset;
+}
+
+p {
+    hyphens: unset;
 }
 
 hgroup > p {
@@ -118,6 +129,7 @@ footer {
     margin-top: 20px;
     position: relative;
     border-top: 1px solid var(--fg-0);
+    
 
     @media (min-width: 780px) {
         display: flex;
