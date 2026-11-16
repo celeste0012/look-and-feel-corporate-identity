@@ -1,5 +1,5 @@
 const searchInput = document.querySelector('.input-search');
-const items = document.querySelectorAll('.icons button img');
+const items = document.querySelectorAll('.icons a img');
 
 if (searchInput) {
     searchInput.addEventListener('input', function() {
