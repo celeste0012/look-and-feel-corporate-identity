@@ -13,6 +13,12 @@ header {
     }
 }
 
+h1, h2, p {
+        @media (prefers-color-scheme: dark) {
+        line-height: 1.6;
+    }
+}
+
 .cco-universal {
     font-size: large;
 }
