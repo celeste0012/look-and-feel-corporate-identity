@@ -22,7 +22,7 @@ h1 {
     font-size: 1.5rem;
 }
 
-a {
+.terug {
     min-width: 90px;
 
     @media (max-width:310px) {
