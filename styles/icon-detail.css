@@ -1,3 +1,18 @@
+.background {
+    background-color: var(--bg-2);
+    border-radius: 2em;
+    padding: 3px;
+    display: grid;
+    justify-items: center;
+}
+
+.next {
+    display: flex;
+    
+    align-items:first baseline;
+    gap: 10px;
+}
+
 ul {
     list-style-type: "";
     padding-left: 0;
