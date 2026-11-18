@@ -182,7 +182,7 @@ html:has([value="papier"]:checked):has([value="personage"]:checked):has([value="
         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
 
-    li>button>img {
+    li>a>img {
         width: 100%;
         height: 100%;
     }
