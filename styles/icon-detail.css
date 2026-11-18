@@ -1,9 +1,29 @@
 .background {
+    position: relative;
     background-color: var(--bg-2);
     border-radius: 2em;
     padding: 3px;
     display: grid;
     justify-items: center;
+
+    @media (max-width:260px) {
+        padding-bottom: 12px;
+    }
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+a {
+    min-width: 90px;
+
+    @media (max-width:260px) {
+        position: absolute;
+
+        bottom: 12px;
+        left: 4px;
+    }
 }
 
 .next {
@@ -11,6 +31,7 @@
     width: 100%;
     justify-content: space-around;
     align-items:first baseline;
+    gap: 4px;
 }
 
 ul {
@@ -23,5 +44,4 @@ ul {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 20px;
-    /* justify-items: center; */
 }
