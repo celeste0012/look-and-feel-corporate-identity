@@ -15,6 +15,9 @@ Deze website is een verbeterde versie van gemeenteniconen.nl.
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Voor iedereen die rechtenvrije iconen wil is deze website gemaakt, met iconen en illustraties die rechtenvrij zijn. De pagina is responsive en is Mobile first ontworpen en gemaakt.
 
+Link naar github:
+https://celeste0012.github.io/look-and-feel-corporate-identity/
+
 ### Foto van iconenpagina:
 <img width="1862" height="662" alt="afbeelding" src="https://github.com/user-attachments/assets/df9f0077-0d80-4fcf-b710-a0c1b7248284" />
 <img width="1862" height="672" alt="afbeelding" src="https://github.com/user-attachments/assets/f387c1c7-9e39-49c5-a470-3f22dfdf02a7" />
