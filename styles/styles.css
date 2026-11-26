@@ -66,14 +66,20 @@ hgroup > p {
 }
 
 .illustrations {
-    width: clamp(200px, 40vw + 1rem, 600px);
-    border: solid 3px var(--accent);
+    width: clamp(140px, 88vw, 320px);
+    border: solid 3px var(--accent); 
+}
 
-    @media (min-width: 1280px) {
-        position: absolute;
-        top: 90px;
-        right: 27px;
-    }
+.illustrations-div {
+
+    margin-top: 5px;
+    
+
+    @media (min-width: 1100px) {
+            position: absolute;
+            top: 394px;
+            left: 700px;
+        }
 }
 
 div {
@@ -81,6 +87,9 @@ div {
     border: dashed 3px var(--fg-0);
     max-width: 340px;
 
+    @media (min-width: 1100px) {
+        margin-bottom: 30px;
+        }
 }
 
 ul {
