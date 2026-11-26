@@ -28,23 +28,26 @@ header {
     }
 }
 
-.easy-use {
-    display: grid;
-    column-gap: 20px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    padding-bottom: 10px;
+.region {
+    border: var(--fg-0) 2px dashed;
+    max-width: 1250px;
     padding-left: 3px;
 
-    @media (min-width: 580px) {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+    .easy-use {
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        padding-bottom: 10px;
+
+        @media (min-width: 580px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+        }
     }
-
-    max-width: 1250px;
-    border: var(--fg-0) 2px dashed;
-
 }
+
+
 
 #s1 {
     display: grid;
