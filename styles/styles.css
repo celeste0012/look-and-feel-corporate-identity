@@ -67,7 +67,12 @@ hgroup > p {
 
 .illustrations {
     width: clamp(140px, 88vw, 320px);
-    border: solid 3px var(--accent); 
+    background-color: var(--bg-1); 
+
+
+    @media (min-width:340px) {
+    height: 140px;
+    }
 }
 
 .illustrations-div {
